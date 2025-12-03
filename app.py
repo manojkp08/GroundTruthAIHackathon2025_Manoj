@@ -54,7 +54,51 @@ def analyze_campaign_data(df):
     except Exception as e:
         return None, f"Data Processing Error: {str(e)}"
 
-# --- AI INSUGHT GENERATOR ---
+# --- AI INSIGHT GENERATOR ---
+def generate_executive_summary(stats, df_head):
+    """
+    Basically google gemini api is used to generate insights of the csv data.
+    """
+    if not api_key:
+        return "⚠️ GEMINI_API_KEY is missing. Please check your .env file."
+
+    try:
+        # Using gemini-2.5-flash for speed and efficiency in the project
+        llm = ChatGoogleGenerativeAI(
+            model="gemini-2.5-flash",
+            temperature=0.5,
+            google_api_key=api_key,
+            convert_system_message_to_human=True # act as a helper for some langchain versions, good to have
+        )
+        
+        template = """
+        You are a Senior Data Analyst at a top AdTech firm. 
+        Write a concise, 3-paragraph executive summary for the Marketing Director based on the following weekly performance data.
+
+        KEY METRICS:
+        {metrics}
+
+        CONTEXT:
+        The highest performing platform is {best_platform}.
+        
+        INSTRUCTIONS:
+        1. Start with an overall performance assessment.
+        2. Highlight the 'Top Campaign' and why it succeeded.
+        3. Provide one actionable recommendation for next week to lower the CPA.
+        
+        Keep the tone professional, objective, and action-oriented.
+        """
+        
+        prompt = PromptTemplate(template=template, input_variables=["metrics", "best_platform"])
+        
+        # Format metrics for the prompt
+        metrics_str = "\n".join([f"- {k}: {v}" for k,v in stats.items()])
+        
+        response = llm.predict(prompt.format(metrics=metrics_str, best_platform=stats['Best Platform']))
+        return response
+    
+    except Exception as e:
+        return f"AI Service Unavailable: {str(e)}"
 
 # --- PDF GENERATION ---
 
