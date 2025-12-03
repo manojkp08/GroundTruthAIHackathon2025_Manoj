@@ -1,0 +1,16 @@
+Campaign_Name,Platform,Impressions,Clicks,Spend,Conversions,Status
+Failed_Launch_Facebook,Facebook,50000,200,1500.00,5,Active
+Expensive_Keywords_Google,Google Ads,30000,150,2200.00,8,Active
+Influencer_Flop_TikTok,TikTok,100000,500,1800.00,12,Active
+LinkedIn_Executive_Reach,LinkedIn,15000,100,2500.00,3,Active
+Instagram_Reels_Zero_Reach,Instagram,40000,120,900.00,4,Active
+Programmatic_Wastage,Programmatic,200000,300,1200.00,2,Active
+Twitter_Ads_Test,Twitter,25000,50,600.00,1,Paused
+YouTube_Skipped_Ads,YouTube,80000,100,1100.00,6,Active
+Email_Loyalty_List,Email,15000,2500,150.00,210,Active
+Referral_Program_Organic,Email,10000,1200,50.00,150,Active
+Snapchat_Filter_Test,Snapchat,30000,80,500.00,2,Active
+Outbrain_Native_Ads,Programmatic,150000,250,850.00,4,Active
+Bing_Search_Broad,Bing,12000,40,300.00,1,Active
+Pinterest_Decor_Ideas,Pinterest,20000,90,400.00,5,Active
+Spotify_Audio_Ad,Spotify,45000,20,700.00,0,Active

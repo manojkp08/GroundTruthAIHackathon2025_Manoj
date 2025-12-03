@@ -1,0 +1,16 @@
+Campaign_Name,Platform,Impressions,Clicks,Spend,Conversions,Status
+Buy_Now_Keywords_Exact,Google Ads,25000,4500,900.00,850,Active
+Brand_Name_Search,Google Ads,40000,8000,500.00,1200,Active
+Facebook_Awareness_Feed,Facebook,150000,1200,800.00,30,Active
+Instagram_Lifestyle_Post,Instagram,120000,900,750.00,25,Active
+Shopping_Ads_BestSellers,Google Ads,65000,5200,1100.00,680,Active
+TikTok_Brand_Awareness,TikTok,200000,1500,600.00,15,Active
+YouTube_Review_Video,YouTube,45000,3000,450.00,220,Active
+Competitor_Conquesting,Google Ads,18000,2100,650.00,310,Active
+LinkedIn_Job_Post_Promo,LinkedIn,8000,80,400.00,5,Paused
+Email_Cart_Abandon,Email,12000,1500,100.00,140,Active
+Performance_Max_Campaign,Google Ads,85000,6500,1200.00,750,Active
+Twitter_Trend_Jack,Twitter,50000,400,300.00,10,Active
+Local_Service_Ads,Google Ads,15000,1200,350.00,190,Active
+FB_Messenger_Bot,Facebook,20000,300,250.00,12,Active
+Display_Remarketing,Google Ads,90000,2200,400.00,180,Active

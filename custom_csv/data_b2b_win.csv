@@ -1,0 +1,16 @@
+Campaign_Name,Platform,Impressions,Clicks,Spend,Conversions,Status
+Enterprise_Software_Demo,LinkedIn,25000,850,1500.00,120,Active
+C_Level_Whitepaper,LinkedIn,18000,600,1200.00,95,Active
+Industry_Conference_Meetup,LinkedIn,12000,450,900.00,80,Active
+TikTok_Intern_Trends,TikTok,500000,5000,400.00,10,Active
+Instagram_Office_Culture,Instagram,45000,1200,600.00,5,Active
+Facebook_Retargeting_B2B,Facebook,30000,500,550.00,25,Active
+Google_Search_Competitor,Google Ads,15000,300,800.00,30,Active
+Email_Webinar_Invite,Email,22000,1800,200.00,150,Active
+YouTube_Case_Study,YouTube,28000,900,700.00,45,Active
+Twitter_Industry_News,Twitter,35000,400,350.00,12,Active
+LinkedIn_InMail_Direct,LinkedIn,5000,250,600.00,65,Active
+Programmatic_Trade_Pubs,Programmatic,80000,600,900.00,20,Active
+Podcast_Sponsorship_Tech,Audio,40000,150,1100.00,8,Paused
+Google_Display_Contextual,Google Ads,150000,1200,650.00,15,Active
+Decision_Maker_Video,LinkedIn,20000,700,1300.00,105,Active
